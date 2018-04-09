@@ -1,0 +1,197 @@
+.tip{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	padding: 0 30px;
+	padding-top: 10px;
+	font-size: 0.8rem;
+	text-align: center;
+	height: 0.8rem;
+}
+.tip .dowebok{
+	background: none;
+}
+.head{
+	height: 17rem;
+	background:-webkit-linear-gradient(to right,rgb(64,162,251),rgb(42,195,229));
+	background:-o-linear-gradient(to right,rgb(64,162,251),rgb(42,195,229));
+	background:linear-gradient(to right,rgb(64,162,251),rgb(42,195,229));  
+	width: 100%;
+	display: table; 
+	color: rgb(223,245,235);
+	z-index: 1;
+	position: relative;
+}
+.head > .headmsg{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: inherit;
+	padding:0;
+	width: 33.3%;
+	font-size: 0.8rem;
+}
+.myHeadName > img{
+	height:6rem;
+	width:6rem;
+	border:.36rem solid rgb(189,225,249);
+	border-radius: 50% 50%;
+}
+.myHeadName > div{
+	margin-top: 2rem;
+}
+.tab{
+	width: 90%;
+	height: 6rem;
+	background: #fff;
+	border-radius: .5rem;
+	box-shadow: 0 .3rem .3rem rgb(212,249,243);
+	margin:0 auto;
+	margin-top: -3rem;
+	z-index: 2;
+	display: table;
+	text-align: center;
+	position: relative;
+}
+.tab > .tab-item{
+	display: table-cell;
+	width:20%;
+	height: inherit;
+	vertical-align: middle;
+}
+.tab > .tab-item > img{
+	width: 3rem;
+}
+.tab > .tab-item > .oncheck{
+	display: none;
+}
+.tab > .on > .oncheck{
+	display: inline;
+}
+.tab > .on > .offcheck{
+	display: none;
+}
+.tab > .tab-item > div{
+	font-size: 1rem;
+	margin-top: 3px;
+}
+.table{
+	text-align: center;
+	table-layout: fixed;
+}
+.table td{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.table th{
+	text-align: center;
+	font-weight: normal;
+}
+.contentblock{
+	margin-top: 15px;
+}
+/*粉丝明细*/
+.fansTable tr:nth-child(1){
+	color:rgb(223,116,115);
+}
+.fansTable tr:nth-child(2){
+	color:rgb(223,116,115);
+}
+.fansTable tr:nth-child(3){
+	color:rgb(223,116,115);
+}
+/*粉丝明细*/
+
+/*Z币兑换*/
+.voucher{
+	padding:3px 7px;
+}
+.voucher img{
+	width: 100%;
+}
+/*Z币兑换*/
+
+/*Z币排行*/
+.phb{
+	width: 40%;
+	height: 3rem;
+	border-radius: 3rem;
+	text-align: center;
+	background:rgb(252,199,67);
+	line-height: 3rem;
+	color:#444;
+	margin:0 auto;
+	font-size: 1.2rem;
+}
+.phblist{
+	display: table;
+	text-align: center;
+	height: 4rem;
+	background:rgb(246,236,226);
+	width: 100%;
+	margin-top: 15px;
+	border-radius: .3rem;
+	color: rgb(238,105,34);
+	table-layout: fixed;
+
+}
+.phblist > div{
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.pm{
+	width: 13%;
+	font-size: 1.2rem;
+}
+.pm > img{
+	height: 2.3rem;
+}
+.tx{
+	width: 17%;
+}
+.tx > img{
+	width: 3rem;
+	height: 3rem;
+	border:.2rem solid rgb(189,225,249);
+	border-radius: 50% 50%;
+}
+.nc{
+	width: 40%;
+	text-align: center;
+}
+.jf{
+	width:30%;
+	text-align: center;
+	padding-right: 15px;
+}
+/*Z币排行*/
+
+/*兑换记录*/
+.changeTable tr:nth-child(1){
+	color:rgb(223,116,115);
+}
+.changeTable tr:nth-child(2){
+	color:rgb(223,116,115);
+}
+.changeTable tr:nth-child(3){
+	color:rgb(223,116,115);
+}
+/*兑换记录*/
+
+/*Z币转赠*/
+.form-input{
+	display: inline-block;
+	width: 60%;
+}
+.form-group label{
+	width:30%;
+	text-align: right;
+}
+.zzTable thead tr th{
+	border:none;
+}
+/*Z币转赠*/
